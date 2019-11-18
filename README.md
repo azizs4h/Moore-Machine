@@ -1,2 +1,3 @@
 # Moore-Machine
-Javascript+Html+Css
+This code was written javascript.
+I am new in javascript, i may have made some mistakes.
