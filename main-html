@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- 
+   azizs4h
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MOORE MACHINE</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="main" ><strong>Please split the alphabet elements with commas.</strong></div>
+    <div class="main">
+            <input class = "input" placeholder="Search word" type="text" id="search">
+            <input class = "input" placeholder="State Alphabet"  type="text" id="state">
+            <input class = "input" placeholder="Transition Alphabet"  type="text" id="transition">
+            <button id ="confirm" onclick="setTable();">Confirm</button>
+            <button id = "calculate" onclick="mooreCalc();">Run</button>
+            <button onclick="clearAll();">Clear</button>
+            <div id="tablediv"></div>
+            <div class="collectivediv" id="resultdiv"></div>
+            <div class="collectivediv" id="outputdiv"></div>
+    </div>
+</body>
+</html>
